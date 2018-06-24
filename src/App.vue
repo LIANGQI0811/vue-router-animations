@@ -20,16 +20,15 @@ export default {
   @import 'htpps://cdn.jsdelivr.net/npm/animate.css@3.5.1'
 
   body {
-    background: rgb(233,233,233);
     font-family: Arial,Helvetica, sans-serif;
   }
 
   html, body {
     height: calc(100% - 50px);
+    background: slateblue;
   }
 
   #app {
-    background: #fff;
     width: 50%;
     padding: 30px;
     border-radius: 10px;
@@ -37,8 +36,22 @@ export default {
     height: calc(60% - 50px);
   }
 
+  #nav a {
+    color: whitesmoke;
+    font-weight: bolder;
+    margin: 0 .2rem;
+  }
+  #nav a:hover {
+    cursor: pointer;
+    color: lightblue;
+  }
+
   .page {
-    width: inherit;
+    width: 100%;
+    padding: 1rem;
+    background: #fff;
+    margin-top: .6rem;
+    box-shadow: 0 0 20px darkslateblue;
   }
 
   .anim-enter-active {

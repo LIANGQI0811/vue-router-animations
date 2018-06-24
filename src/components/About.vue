@@ -6,9 +6,11 @@
 </template>
 
 <script>
+
 export default {
-  name: 'About',
+  name: 'About'
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
