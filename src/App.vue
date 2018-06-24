@@ -43,14 +43,14 @@ export default {
 
   .anim-enter-active {
     opacity: 0;
-    animation: coming 1s .5s;
+    animation: entering 1s .5s;
   }
 
   .anim-leave-active {
-    animation: going 1s;
+    animation: leaving 1s;
   }
 
-  @keyframes going {
+  @keyframes leaving {
     from {
       transform: translateX(0);
     }
@@ -61,7 +61,7 @@ export default {
     }
   }
 
-  @keyframes coming {
+  @keyframes entering {
     from {
       transform: translateX(-50px);
       opacity: 0;
